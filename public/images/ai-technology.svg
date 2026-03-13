@@ -1,0 +1,73 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Deep Tech Glow -->
+  <circle cx="400" cy="400" r="300" fill="url(#techGlow)" opacity="0.35"/>
+  
+  <!-- Semi-transparent Skull -->
+  <path d="M 320 240 L 480 240 L 500 270 L 510 350 L 500 430 L 480 480 L 450 510 L 350 510 L 320 480 L 300 430 L 290 350 L 300 270 Z" 
+        fill="rgba(30, 30, 50, 0.3)" stroke="#8B5CF6" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Neural Core Brain -->
+  <ellipse cx="400" cy="360" rx="80" ry="70" fill="url(#coreGradient)" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- Rotating Holographic Rings -->
+  <ellipse cx="400" cy="360" rx="120" ry="30" fill="none" stroke="#8B5CF6" stroke-width="2" opacity="0.6">
+    <animateTransform attributeName="transform" type="rotate" from="0 400 360" to="360 400 360" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="400" cy="360" rx="140" ry="35" fill="none" stroke="#3B82F6" stroke-width="2" opacity="0.5">
+    <animateTransform attributeName="transform" type="rotate" from="0 400 360" to="-360 400 360" dur="12s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="400" cy="360" rx="160" ry="40" fill="none" stroke="#8B5CF6" stroke-width="1.5" opacity="0.4">
+    <animateTransform attributeName="transform" type="rotate" from="0 400 360" to="360 400 360" dur="15s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- Data Streams -->
+  <path d="M 400 290 L 400 250" stroke="#3B82F6" stroke-width="2" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 330 330 L 300 300" stroke="#8B5CF6" stroke-width="2" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 470 330 L 500 300" stroke="#3B82F6" stroke-width="2" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.6s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Pulsing Energy Core -->
+  <circle cx="400" cy="360" r="30" fill="#8B5CF6" opacity="0.6">
+    <animate attributeName="r" values="30;35;30" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="360" r="20" fill="#3B82F6" opacity="0.8">
+    <animate attributeName="r" values="20;25;20" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Orbiting Particles -->
+  <circle cx="400" cy="360" r="5" fill="#8B5CF6">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M 0,0 m -100,0 a 100,100 0 1,0 200,0 a 100,100 0 1,0 -200,0"/>
+  </circle>
+  <circle cx="400" cy="360" r="4" fill="#3B82F6">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M 0,0 m -120,0 a 120,120 0 1,0 240,0 a 120,120 0 1,0 -240,0"/>
+  </circle>
+  <circle cx="400" cy="360" r="3" fill="#8B5CF6">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M 0,0 m -140,0 a 140,140 0 1,0 280,0 a 140,140 0 1,0 -280,0"/>
+  </circle>
+  
+  <!-- Eyes -->
+  <circle cx="360" cy="320" r="8" fill="#3B82F6" opacity="0.8"/>
+  <circle cx="440" cy="320" r="8" fill="#3B82F6" opacity="0.8"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="techGlow">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coreGradient">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+</svg>

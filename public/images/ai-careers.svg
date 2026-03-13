@@ -1,0 +1,65 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Warm Glow -->
+  <circle cx="400" cy="400" r="280" fill="url(#careersGlow)" opacity="0.25"/>
+  
+  <!-- Smooth Rounded Robot Head -->
+  <ellipse cx="400" cy="380" rx="110" ry="130" fill="url(#friendlyGradient)" opacity="0.95"/>
+  <circle cx="400" cy="320" r="90" fill="url(#friendlyGradient)" opacity="0.95"/>
+  
+  <!-- Soft Blue Accents -->
+  <path d="M 320 350 Q 400 340, 480 350" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 330 400 Q 400 390, 470 400" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Friendly Eyes -->
+  <ellipse cx="360" cy="340" rx="18" ry="22" fill="#3B82F6" opacity="0.9">
+    <animate attributeName="ry" values="22;20;22" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="440" cy="340" rx="18" ry="22" fill="#3B82F6" opacity="0.9">
+    <animate attributeName="ry" values="22;20;22" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- Eye Highlights -->
+  <circle cx="365" cy="335" r="6" fill="#60A5FA" opacity="0.9"/>
+  <circle cx="445" cy="335" r="6" fill="#60A5FA" opacity="0.9"/>
+  
+  <!-- Gentle Smile -->
+  <path d="M 350 390 Q 400 410, 450 390" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" opacity="0.7" fill="none"/>
+  
+  <!-- Floating Animation Indicators -->
+  <circle cx="400" cy="250" r="4" fill="#60A5FA" opacity="0.6">
+    <animate attributeName="cy" values="250;245;250" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="280" r="3" fill="#3B82F6" opacity="0.5">
+    <animate attributeName="cy" values="280;275;280" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="480" cy="280" r="3" fill="#3B82F6" opacity="0.5">
+    <animate attributeName="cy" values="280;275;280" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Minimal Tech Details -->
+  <circle cx="340" cy="310" r="2" fill="#60A5FA" opacity="0.7"/>
+  <circle cx="460" cy="310" r="2" fill="#60A5FA" opacity="0.7"/>
+  <line x1="330" y1="370" x2="340" y2="370" stroke="#3B82F6" stroke-width="2" opacity="0.5"/>
+  <line x1="460" y1="370" x2="470" y2="370" stroke="#3B82F6" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Soft Glow Around Head -->
+  <circle cx="400" cy="360" r="140" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.2">
+    <animate attributeName="r" values="140;145;140" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="careersGlow">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="friendlyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+</svg>

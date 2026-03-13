@@ -1,0 +1,30 @@
+﻿
+C:\Users\mogan\b2b-marketplace\techdlt\app\about\page.tsx
+  74:34  warning  'index' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\mogan\b2b-marketplace\techdlt\app\careers\page.tsx
+  8:17  warning  'inView' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\mogan\b2b-marketplace\techdlt\app\services\[id]\page.tsx
+  8:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\mogan\b2b-marketplace\techdlt\components\animations\Hero3DBackground.tsx
+  23:9  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\mogan\b2b-marketplace\techdlt\components\animations\Hero3DBackground.tsx:23:9
+  21 |             ));
+  22 |         }
+> 23 |         setPoints(p);
+     |         ^^^^^^^^^ Avoid calling setState() directly within an effect
+  24 |     }, []);
+  25 |
+  26 |     const linesRef = useRef<THREE.LineSegments>(null);  react-hooks/set-state-in-effect
+
+Γ£û 4 problems (2 errors, 2 warnings)
+
