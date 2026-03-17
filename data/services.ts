@@ -160,6 +160,18 @@ export const services = [
                 tag: "Mobile",
                 imageGradient: "from-green-900 via-emerald-900 to-black",
                 imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800"
+            },
+            {
+                id: "mobile-dev",
+                slug: "mobile-application-development",
+                title: "Mobile Application Development",
+                desc: "End-to-end mobile solutions for iOS and Android.",
+                fullDesc: "Our Mobile Application Development service delivers high-performance, feature-rich apps tailored to your business needs. We specialize in building scalable applications that provide seamless user experiences across all mobile devices, ensuring your brand stays connected with users on the go.",
+                features: ["iOS & Android Development", "Custom Mobile UX/UI Design", "Backend API Integration", "App Store Optimization & Deployment"],
+                cta: "Start App Project",
+                tag: "Mobile",
+                imageGradient: "from-blue-800 via-indigo-900 to-black",
+                imageUrl: "/images/services/mobile-application-development.png"
             }
         ]
     },

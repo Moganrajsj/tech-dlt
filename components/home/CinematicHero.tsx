@@ -90,7 +90,10 @@ const CinematicHero = () => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1, delay: 1.2 }}
                     >
-                        <button className="px-12 py-4 border border-blue-600 text-blue-600 font-black uppercase tracking-[0.3em] hover:bg-blue-600 hover:text-white transition-all rounded-full shadow-lg shadow-blue-500/20 bg-black/20 backdrop-blur-sm relative z-20">
+                        <button 
+                            className="px-12 py-4 border border-blue-600 text-blue-600 font-black uppercase tracking-[0.3em] hover:bg-blue-600 hover:text-white transition-all rounded-full shadow-lg shadow-blue-500/20 bg-black/20 backdrop-blur-sm relative z-20"
+                            suppressHydrationWarning
+                        >
                             Challenge Us
                         </button>
                     </motion.div>

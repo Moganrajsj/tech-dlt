@@ -48,6 +48,7 @@ export default function FooterEmail() {
                         required
                         disabled={status === 'loading'}
                         className="w-full bg-white border border-slate-200 shadow-sm rounded-full px-6 py-3 text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-[#00bef3] focus:ring-1 focus:ring-[#00bef3] transition-all font-medium disabled:opacity-50"
+                        suppressHydrationWarning
                     />
                 </div>
 
@@ -55,6 +56,7 @@ export default function FooterEmail() {
                     type="submit"
                     disabled={status === 'loading'}
                     className="w-full bg-gradient-to-r from-[#00bef3] to-[#0071bc] hover:from-[#00ace0] hover:to-[#0060a0] text-white font-bold text-xs uppercase tracking-widest py-4 rounded-full transition-all shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed overflow-hidden relative group"
+                    suppressHydrationWarning
                 >
                     <span className="relative z-10 transition-transform duration-300 inline-block">
                         {status === 'loading' ? "Sending..." : "Submit Inquiry"}

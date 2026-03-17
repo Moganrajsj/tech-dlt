@@ -124,6 +124,7 @@ const Navigation = () => {
             <button
               className="group relative z-50 w-12 h-12 flex flex-col justify-center items-center gap-1.5 focus:outline-none"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              suppressHydrationWarning
             >
               <motion.div
                 animate={mobileMenuOpen ? { rotate: 45, y: 4 } : { rotate: 0, y: 0 }}

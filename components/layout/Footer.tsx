@@ -146,6 +146,8 @@ const Footer = () => {
             { name: 'Blockchain', href: '/services' },
             { name: 'AI Development', href: '/services' },
             { name: 'ERP Solutions', href: '/services' },
+            { name: 'Business Intelligence', href: '/services' },
+            { name: 'Account Maintenance & Auditing', href: '/services' },
             { name: 'Market Research', href: '/store' },
         ],
         legal: [
