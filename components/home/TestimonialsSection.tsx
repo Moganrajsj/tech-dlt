@@ -14,27 +14,29 @@ const row1Testimonials = [
     { name: "Pradeep Kumar", role: "Systems Architect", text: "Secure architecture and strong performance. Tech-DLT delivered exactly what we needed." },
     { name: "William Evans", role: "Engineering Head", text: "Their AI platforms integrate seamlessly with our systems. The results were impressive." },
     { name: "Sophia Wilson", role: "Product Manager", text: "The development process was fast and efficient. They truly understand modern web technologies." },
-    { name: "Rammoorthi", role: "IT Manager", text: "Reliable infrastructure and smooth deployment. A great partner for digital transformation." },
     { name: "Isabella Wright", role: "Technology Consultant", text: "The engineering quality is exceptional. Their team understands enterprise AI perfectly." },
     { name: "Manikandan S", role: "Operations Lead", text: "Our automation workflows improved drastically. Tech-DLT helped us save time and resources." },
     { name: "Isabella Wright", role: "Business Director", text: "Their intelligent systems brought clarity to our data. A truly professional team." },
     { name: "Senthil Kumar", role: "Engineering Manager", text: "Fast, stable, and secure AI architecture. Exactly what modern businesses require." },
-    { name: "Mogan Raj SJ", role: "Software Architect", text: "Integration was smooth and well-engineered. Their AI frameworks are powerful." },
     { name: "Murugan P", role: "IT Director", text: "We experienced immediate performance improvements. Tech-DLT delivered high-quality solutions." },
     { name: "Frederick Hayes", role: "Systems Analyst", text: "The analytics tools improved our visibility. Now we make smarter business decisions." },
     { name: "Ashwin Kumar", role: "Product Manager", text: "A reliable technology partner for scaling businesses. Their AI capabilities are impressive." },
-    { name: "James Cooper", role: "Tech Lead", text: "Modern AI infrastructure with strong security. Highly recommended for enterprise solutions." }
+    { name: "James Cooper", role: "Tech Lead", text: "Modern AI infrastructure with strong security. Highly recommended for enterprise solutions." },
+    { name: "Rahul Agarwal", role: "Founder", text: "TechDLT delivered a fast and reliable website for our business. The performance improvement was clearly visible from day one." },
+    { name: "Rohit Gupta", role: "Business Owner", text: "Our website now looks premium and professional. The overall customer engagement has improved a lot." },
+    { name: "Vikram Singh", role: "Director", text: "TechDLT delivered on time with great quality. The website performance and speed are excellent." },
+    { name: "Meena Iyer", role: "Founder", text: "The design is elegant and perfectly matches our brand identity. We are very happy with the outcome." },
+    { name: "Suresh Reddy", role: "CEO", text: "The platform is scalable and well-optimized. Their technical expertise is clearly visible in the final product." }
 ];
 
 const row2Testimonials = [
     { name: "Michael Brown", role: "CTO", text: "Clean code, great performance, and smooth deployment. Exactly what a tech company expects." },
-    { name: "Lakshmi Narayanan", role: "Product Strategy", text: "Advanced AI insights improved our planning. Tech-DLT helped us grow faster." },
+    { name: "Sarah Mitchell", role: "Product Strategy", text: "Advanced AI insights improved our planning. Tech-DLT helped us grow faster." },
     { name: "Karan Malhotra", role: "Director", text: "Professional team with excellent support. Even after delivery, they helped us with updates and improvements." },
     { name: "Suresh Babu", role: "Infrastructure Manager", text: "The digital architecture they built is future-ready. Stable, secure, and scalable." },
     { name: "Daniel Harris", role: "CEO", text: "Great attention to detail and excellent communication. The final product exceeded our expectations." },
     { name: "Meenakshi Sundaram", role: "Transformation Head", text: "Our systems are now automated and efficient. Tech-DLT made the transformation smooth." },
     { name: "Lucas Martinez", role: "Founder", text: "Super smooth development process. The performance and responsiveness are outstanding." },
-    { name: "Yuvrani . M", role: "Technical Advisor", text: "A trusted partner for AI innovation. Their engineering standards are excellent." },
     { name: "Henry Adams", role: "CTO", text: "Highly impressed with the technical expertise. The platform is scalable and well-optimized." },
     { name: "Kumaravel P", role: "Systems Engineer", text: "The performance boost was noticeable immediately. Great infrastructure solutions." },
     { name: "Naveen Kumar", role: "Startup Founder", text: "Tech-DLT understands real startup challenges. Their solutions helped us scale quickly." },
@@ -46,7 +48,11 @@ const row2Testimonials = [
     { name: "Selvakumar R", role: "Engineering Lead", text: "The technology stack is modern and scalable. Excellent engineering execution." },
     { name: "Aravind Raj", role: "Cloud Architect", text: "Strong AI architecture and cloud integration. Highly dependable solutions." },
     { name: "Bharath Kumar", role: "Software Consultant", text: "Tech-DLT delivered high-quality AI solutions. Professional and efficient team." },
-    { name: "Deepak Raj", role: "Operations Manager", text: "Our digital systems became faster and smarter. A great transformation partner." }
+    { name: "Alice Cooper", role: "Operations Manager", text: "Our digital systems became faster and smarter. A great transformation partner." },
+    { name: "Karthik R", role: "CTO", text: "Strong technical expertise. The system is optimized for performance and future growth." },
+    { name: "Arun Verma", role: "Director", text: "The project was handled professionally from start to finish." },
+    { name: "Manoj Patel", role: "Owner", text: "The automation features improved our workflow significantly." },
+    { name: "Gaurav Gupta", role: "Director", text: "Great experience working with TechDLT." }
 ];
 
 // Double the items for seamless infinite scroll
